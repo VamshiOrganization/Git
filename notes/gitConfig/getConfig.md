@@ -23,3 +23,9 @@ git config --global user.email "email@example.com"
 git config user.name "Project Alias"
 git config user.email "alias@example.com"
 ```
+
+# Point your local Git repo to the new Organization URL
+git remote set-url origin https://github.com/VamshiOrganization/springboot-crud-k8s.git
+
+# Verify it updated
+git remote -v
